@@ -1,60 +1,83 @@
-# Sinif-Oturma-Plani
- 
+# 🏫 Sınıf Oturma Planı (Akıllı & Adil Oturma Düzeni)
 
+[![İndirme Sayısı](https://img.shields.io/github/downloads/bbbaysal/Sinif-Oturma-Plani/total.svg?style=flat-square&color=success)](https://github.com/bbbaysal/Sinif-Oturma-Plani/releases)
+[![Sürüm](https://img.shields.io/github/v/release/bbbaysal/Sinif-Oturma-Plani?style=flat-square&color=blue)](https://github.com/bbbaysal/Sinif-Oturma-Plani/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat-square&logo=windows)](https://github.com/bbbaysal/Sinif-Oturma-Plani)
+[![Lisans](https://img.shields.io/badge/Lisans-MIT-green?style=flat-square)](LICENSE)
 
-📚 Sınıf Oturma Planı Programı: Adil, Rotasyonlu ve Otomatik Oturma Düzeni (Öğretmenler İçin Ücretsiz & Taşınabilir)
-Her yeni eğitim-öğretim dönemi başında ya da sınıfta düzeni sağlamak istediğimizde hepimizin karşılaştığı ortak bir sorun vardır: "Hocam ben arkada kaldım!", "Hocam cam kenarına geçebilir miyim?"
+Öğretmenler için geliştirilmiş; sınıf listelerini **e-Okul**'dan tek tıkla çekebilen, öğrencileri haftalık olarak **adil ve dengeli** bir şekilde rotasyona tabi tutan, dönem ortası öğrenci değişimlerini destekleyen, **A4 PDF** ve **Excel (.xlsx)** çıktıları üreten modern ve taşınabilir (portable) bir masaüstü uygulamasıdır.
 
+---
 
-🔗 Sınıf Oturma Planı Programını İndir 
-(Dosya Boyutu: Yaklaşık 8 MB - Kurulum Gerektirmez)
+## 🌟 Öne Çıkan Özellikler
 
-Öğrencileri hem adil bir şekilde oturtmak hem de kimsenin sürekli arkada veya sürekli köşede kalmayacağı dengeli bir rotasyon planı hazırlamak elle yapıldığında saatlerimizi alabiliyor. Üstelik dönem ortasında sınıfa yeni bir öğrenci geldiğinde veya nakil gittiğinde tüm planı baştan yapmak tam bir kabusa dönüşebiliyor.
+- 🌐 **Dahili e-Okul Entegrasyonu:** Dahili WebView2 tarayıcısı ile e-Okul'a güvenle giriş yapın; sınıf listesini (numara ve ad-soyad) tek tıkla programa aktarın.
+- 🔄 **Adil Rotasyon Algoritması:** Öğrencilerin yerlerini haftalık periyotlarla otomatik olarak kaydırır. Hiçbir öğrenci sürekli arka sırada ya da kapı kenarında kalmaz.
+- 🎯 **Ara Dönem Öğrenci Desteği:** Yıl ortasında yeni öğrenci geldiğinde veya ayrıldığında, geçmiş haftaların düzenini bozmadan seçilen haftadan itibaren planı yeniden optimize eder.
+- 🖨️ **Baskıya Hazır A4 PDF:** Sınıf panosuna veya öğretmen masasına asılabilecek yüksek çözünürlüklü A4 oturma krokisi çıktısı.
+- 📊 **Modern Excel (.xlsx) Desteği:** Her haftayı ayrı çalışma sayfasında (sheet) sunan, renk kodlu ve uyarısız açılan modern Excel çıktısı.
+- 🚀 **Taşınabilir / Portable (Kurulumsuz):** Flash belleğinize atıp okulda, akıllı tahtada veya evinizde doğrudan çalıştırabilirsiniz. Verileriniz programın yanındaki `Veriler` klasöründe saklanır.
 
-Bu ihtiyacı kökten çözmek için geliştirdiğim Sınıf Oturma Planı uygulamasını tamamen ücretsiz ve kurulumsuz (taşınabilir) olarak sizlerle paylaşıyorum!
+---
 
-✨ Programın Öne Çıkan Özellikleri
-1. 🌐 Dahili e-Okul Entegrasyonu
-Listeyi tek tek elle yazmak zorunda değilsiniz. Programın içindeki dahili e-Okul penceresi sayesinde şifrenizle e-Okul'a giriş yapıp sınıf listenize gittiğinizde, öğrenci numaraları ve isimleri tek tıkla otomatik olarak programa aktarılır.
+## 🖥️ Arayüz Önizlemesi
 
-2. 🔄 Akıllı ve Adil Rotasyon Algoritması
-Sınıf mevcudunuz kaç kişi olursa olsun, program her hafta için öğrencilerin yerlerini matematiksel olarak dengeli bir şekilde kaydırır. Böylece:
+| Ana Ekran & Oturma Krokisi | Dahili e-Okul Entegrasyonu |
+| :---: | :---: |
+| ![Ana Ekran](docs/ekran_ana.png) | ![e-Okul Ekranı](docs/ekran_eokul.png) |
 
-Hiçbir öğrenci sürekli en arka sırada oturmaz.
-Her öğrenci dönem boyunca sırayla ön, orta ve arka sıraları deneyimler.
-"Neden o önde, ben arkadayım?" tartışmaları son bulur.
-3. 🎯 Ara Dönem Öğrenci Değişimi Desteği
-Eğitim yılı sürerken sınıfa yeni bir öğrenci mi geldi veya bir öğrenci nakil mi gitti? Eski haftaları çöpe atmanıza gerek yok! "Planı Güncelle" özelliği ile örneğin 10. haftadan itibaren yeni mevcudu girersiniz; program 1-9. haftaları aynen korur, 10. haftadan sonrasını yeni öğrenciye göre kusursuz şekilde yeniden optimize eder.
+---
 
-4. 🖨️ Tek Tıkla A4 PDF ve Modern Excel (.xlsx) Çıktıları
-PDF Çıktısı: Sınıf panosuna veya öğretmen masasına asmaya hazır, tek sayfa A4 formatında şık bir oturma krokisi sunar.
-Excel (.xlsx) Çıktısı: Tüm haftaları ayrı sekmelerde gösteren, renkli ve düzenli tam bir Excel çalışma kitabı oluşturur (Office uyarıları olmadan anında açılır).
-5. 🚀 Flash Bellek Dostu (Kurulum Gerektirmez / Portable)
-Program hiçbir kurulum gerektirmez. İndirdiğiniz klasörü flash belleğinize atıp okul bilgisayarında, evinizde veya akıllı tahtada doğrudan çalıştırabilirsiniz.
+## 🚀 Hızlı Başlangıç & Kullanım
 
-Oluşturduğunuz planlar ve listeler programın yanındaki Veriler klasöründe düzenli bir şekilde saklanır, flash belleğinizle birlikte her yere taşınır.
-🖥️ Ekran Görüntüleri ve Arayüz
+1. **İndirin:** [Releases](https://github.com/bbbaysal/Sinif-Oturma-Plani/releases) sayfasından en güncel `Sinif_Oturma_Plani_v1.0.zip` dosyasını indirin.
+2. **Arşivden Çıkarın:** ZIP dosyasını dilediğiniz bir klasöre veya doğrudan flash belleğinize çıkartın.
+3. **Çalıştırın:** `Sınıf Oturma Planı.exe` dosyasına çift tıklayarak uygulamayı başlatın.
+4. **Planınızı Oluşturun:**
+   - İster **e-Okul** butonuna basarak listenizi otomatik çekin, ister isimleri kutucuğa yapıştırın.
+   - **"Planı Oluştur"** butonuna basarak haftalık krokileri oluşturun.
+   - **"PDF Olarak İndir"** veya **"Excel'e Aktar"** butonlarıyla çıktılarınızı alın.
 
+---
 
+## 📁 Dosya ve Klasör Yapısı
 
+Program çalışırken dosyalarınızı otomatik olarak şu hiyerarşide düzenler:
 
-📖 Nasıl Kullanılır? (3 Kolay Adım)
-Öğrenci Listesini Yükleyin:
-İster e-Okul butonuna basıp listenizi otomatik çekin,
-İsterseniz hazır bir metin dosyasını içe aktarın ya da isimleri doğrudan kutucuğa yapıştırın.
-"Planı Oluştur" Butonuna Basın:
-Saniyeler içinde tüm haftaların oturma düzeni oluşturulur.
-Alt kısımdaki hafta değiştirme butonlarıyla veya klavye yön tuşlarıyla haftalık yerleşim krokisini inceleyebilirsiniz.
-Çıktınızı Alın:
-İster "PDF Olarak İndir" diyerek panoya asılacak çıktınızı alın, ister "Excel'e Aktar" diyerek dijital arşivinize kaydedin.
-⚙️ Sistem Gereksinimleri
-İşletim Sistemi: Windows 10 veya Windows 11 (Windows 7/8 için .NET Framework 4.7.2 gereklidir).
-Ek Bileşen: e-Okul ekranının açılabilmesi için güncel Windows sürümlerinde zaten kurulu gelen Microsoft Edge WebView2 bileşenini kullanır.
-📥 İndirme Bağlantısı
-Uygulamayı aşağıdaki bağlantıdan ZIP olarak indirebilir, arşivden çıkarıp doğrudan Sınıf Oturma Planı.exe dosyasına tıklayarak kullanmaya başlayabilirsiniz.
+```text
+📁 Sınıf Oturma Planı/
+│
+├── 📁 Veriler/                       <-- Tüm kişisel verileriniz burada toplanır
+│   ├── 📁 Planlar/                   (Kayıtlı *.plan.json oturma planları)
+│   ├── 📁 Listeler/                  (İçe aktarılan veya e-okuldan çekilen listeler)
+│   └── 📁 Çıktılar/                  (Oluşturulan PDF ve .xlsx dosyaları)
+│
+├── 📁 lib/                           (Gerekli DLL kütüphaneleri)
+├── 📁 runtimes/                      (WebView2 çekirdek bileşenleri)
+├── 📄 Sınıf Oturma Planı.exe         (Ana çalıştırılabilir dosya)
+└── 📄 Sınıf Oturma Planı.exe.config
+```
 
-🔗 Sınıf Oturma Planı Programını İndir 
-(Dosya Boyutu: Yaklaşık 8 MB - Kurulum Gerektirmez)
+---
 
-💬 Görüş ve Önerileriniz:
-Programı kullandıktan sonra deneyimlerinizi, eklenmesini istediğiniz özellikleri veya karşılaştığınız durumları bu yazının altına yorum olarak yazabilirsiniz. Tüm öğretmen arkadaşlarıma faydalı olması dileğiyle!
+## 🛠️ Kullanılan Teknolojiler
+
+- **Dil & Çatı:** C# / .NET Framework 4.7.2
+- **Arayüz:** WPF (Windows Presentation Foundation) & WinForms
+- **Web Motoru:** [Microsoft.Web.WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
+- **PDF İşleme:** [UglyToad.PdfPig](https://github.com/UglyToad/PdfPig)
+- **Ofis Entegrasyonu:** Microsoft.Office.Interop.Excel (.xlsx / OpenXML)
+
+---
+
+## ⚙️ Sistem Gereksinimleri
+
+- **İşletim Sistemi:** Windows 10 / Windows 11 (Windows 7/8 için .NET Framework 4.7.2 gerekir).
+- **Ek Bileşen:** e-Okul tarayıcısı için *Microsoft Edge WebView2 Runtime* (Windows 10 ve 11'de varsayılan olarak yüklüdür).
+
+---
+
+## 📄 Lisans
+
+Bu proje [MIT Lisansı](LICENSE) kapsamında açık kaynak olarak paylaşılmıştır. Eğitim camiasına faydalı olması dileğiyle!
+
