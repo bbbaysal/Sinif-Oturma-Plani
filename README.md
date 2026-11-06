@@ -1,3 +1,4 @@
+<img width="1166" height="713" alt="2026-11-07 00_26_41-Sınıf Oturma Planı Sistemi" src="https://github.com/user-attachments/assets/f87d2500-9b0c-461f-ad96-1065faa7666a" />
 # 🏫 Sınıf Oturma Planı (Akıllı & Adil Oturma Düzeni)
 
 [![İndirme Sayısı](https://img.shields.io/github/downloads/bbbaysal/Sinif-Oturma-Plani/total.svg?style=flat-square&color=success)](https://github.com/bbbaysal/Sinif-Oturma-Plani/releases)
@@ -25,6 +26,8 @@
 | Ana Ekran & Oturma Krokisi | Dahili e-Okul Entegrasyonu |
 | :---: | :---: |
 | ![Ana Ekran](docs/ekran_ana.png) | ![e-Okul Ekranı](docs/ekran_eokul.png) |
+<img width="1166" height="713" alt="2026-11-07 00_26_41-Sınıf Oturma Planı Sistemi" src="https://github.com/user-attachments/assets/3eae191a-0fbe-4334-93a1-a4c27a89f703" />
+<img width="1165" height="713" alt="2026-11-07 00_28_04-Sınıf Oturma Planı Sistemi" src="https://github.com/user-attachments/assets/aed92d28-52b9-4b78-933a-825737f6d10d" />
 
 ---
 
