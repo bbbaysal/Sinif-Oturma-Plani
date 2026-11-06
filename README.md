@@ -1,0 +1,1 @@
+# Sinif-Oturma-Plani
